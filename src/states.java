@@ -1,6 +1,6 @@
 public class states {
     
-    private String name;
+    private final String name;
     private String medicalStates;
     private String color;
     private String heartRate;
@@ -21,10 +21,6 @@ public class states {
         this.name = name;
         this.medicalStates = medicalStates;
         this.heartRate = heartRate;
-    }
-
-    public void setName (String name) {
-        this.name = name;
     }
 
     public String getName () {
